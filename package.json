@@ -1,15 +1,12 @@
 {
-  "name": "react-native-swipeout",
+  "name": "react-native-swipeout-rn25",
   "version": "2.0.12",
   "description": "iOS-style swipeout buttons behind component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:dancormier/react-native-swipeout.git"
-  },
+  "repository": "https://github.com/wix-private/inbox",
   "keywords": [
     "react-native",
     "react-component",
@@ -24,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/dancormier/react-native-swipeout/issues"
   },
-  "homepage": "https://github.com/dancormier/react-native-swipeout",
+  "homepage": "https://github.com/wix-private/react-native-swipeout",
   "dependencies": {
     "react-tween-state": "^0.1.3"
   },

@@ -1,3 +1,5 @@
+## -- Temporary fork for React Native 0.25+ support --
+
 # react-native-swipeout
 iOS-style swipeout buttons that appear from behind a component
 
