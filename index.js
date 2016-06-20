@@ -1,7 +1,13 @@
-var React = require('react-native')
-var tweenState = require('react-tween-state')
-var {PanResponder, TouchableHighlight, StyleSheet, Text, View} = React
-var styles = require('./styles.js')
+import React from 'react'
+import tweenState from 'react-tween-state'
+import {
+  PanResponder,
+  TouchableHighlight,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native'
+import styles from './styles'
 
 var SwipeoutBtn = React.createClass({
   getDefaultProps: function() {
@@ -197,9 +203,9 @@ var Swipeout = React.createClass({
 
 //  close swipeout on button press
 , _autoClose: function(btn) {
-    if (this.state.autoClose) this._close()
     var onPress = btn.onPress
     if (onPress) onPress()
+    if (this.state.autoClose) this._close()
   }
 , _close: function() {
     this._tweenContent('contentPos', 0)
